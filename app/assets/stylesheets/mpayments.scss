@@ -1,3 +1,25 @@
-// Place all the styles related to the Mpayments controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.navigation {
+  position: fixed;
+  background-color: #23aa84;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  font-family: 'Abel', sans-serif;
+}
+
+.table {
+  padding-top: 100px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+thead {
+  background-color: #bec9c6;
+}
+
+table {
+  margin: 0px auto;  
+}

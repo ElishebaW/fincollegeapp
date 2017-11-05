@@ -1,8 +1,21 @@
-  <H1>Schools</h1>
+<nav class='navigation'>
+  <H1>College Financial Decision Chart</h1>
+</nav>
 
-    <%  @parsed_payments.each do |payment|%>
-     <ul>
-        <li class='btn'><%=payment["school.name"]%></li>
-
-      </ul>
-    <% end %>
+<table class='table'>
+  <thead>
+    <tr>
+      <td>School name</td>
+      <td>Median Debt</td>
+      <td>Earnings</td>
+    </tr>
+  </thead>
+  <tbody>
+    <%@parsed_payments.each do |payment|%>
+    <tr>
+      <td><%=payment["school.name"]%></td>
+      <td><%=payment["2013.aid.median_debt.completers.overall"]%></td>
+      <td><%=payment["2013.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings"]%></td>
+    </tr>
+    <%end%>
+  </tbody>
