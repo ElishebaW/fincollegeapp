@@ -16,7 +16,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano-rails', group: :development
-
+gem 'httparty', '~> 0.15.6'
+gem 'json', '~> 2.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
