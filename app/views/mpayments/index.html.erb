@@ -1,25 +1,31 @@
 <nav class='navigation'>
   <H1>College Financial Decision Chart</h1>
 </nav>
+<div><%= image_tag "rsz_college_stock_photo.jpg", class: "medium_image" %></div>
 
-<table class='table'>
-  <thead>
-    <tr>
-      <td>School name</td>
-      <td>Median Debt</td>
-      <td>Earnings</td>
-      <td>Monthly Payments<td>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for colleges..">
+<div>
+<table id="myTable">
+    <tr class="header">
+      <th style="width:40%;">School name</th>
+      <th style="width:40%;">Median Debt</th>
+      <th style="width:40%;">Earnings</th>
+      <th style="width:40%;">Monthly Payments<th>
     </tr>
-  </thead>
-  <tbody>
-    <%@parsed_payments.each do |payment|%>
+    <%= @parsed_payments.each do |payment|%>
     <tr>
       <td><%=payment["school.name"]%></td>
       <td><%=payment["2013.aid.median_debt.completers.overall"]%></td>
       <td><%=payment["2013.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings"]%></td>
-      <td>
     </tr>
     <%end%>
-  </tbody>
 </table>
-<%= image_tag("/assets/images/college_stock_photo.jpeg", class: "medium_image") %>
+</div>
+<div class="w3-bar">
+  <a href="#" class="w3-button">«</a>
+  <a href="#" class="w3-button w3-green">1</a>
+  <a href="#" class="w3-button">2</a>
+  <a href="#" class="w3-button">3</a>
+  <a href="#" class="w3-button">4</a>
+  <a href="#" class="w3-button">»</a>
+</div>
