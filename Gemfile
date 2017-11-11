@@ -13,9 +13,14 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano-rails', group: :development
 gem 'httparty', '~> 0.15.6'
 gem 'json', '~> 2.1'
+gem 'pg'
 
 group :production do
-  gem 'pg'
+
+end
+
+group :development, :test do
+  gem 'sqlite3'
 end
 
 group :development, :test do
@@ -23,7 +28,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec', '~> 3.7'
-  gem 'sqlite3'
 end
 
 group :development do
