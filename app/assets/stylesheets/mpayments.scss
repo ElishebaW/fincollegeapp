@@ -3,38 +3,22 @@
   float:right;
   width: 100%;
   text-align: center;
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding-bottom: 20px;
+  color: #5a7994;
 }
 
-.logo {
-  float: left;
-  font-family: Georgia,"Times New Roman",Times,serif;
-  top: 0;
-  color: #0e0200;
-}
 
-.table {
-  padding-top: 100px;
+/*Images*/
+.small_image {
+  height: 10em;
+  width: 30em;
 }
-
-th, td {
-    padding: 15px;
-    text-align: left;
-}
-
-thead {
-  background-color: #bec9c6;
-}
-
-table {
-  margin: 0px auto;
-}
-
 .medium_image {
-  width: 100%;
-  height: auto;
-  background-position: right;
+  width: 50%;
+  height: 35em;
+  padding: 10px 20px;
+  float: right;
 }
 
 /*Table Filter W3 schools https://www.w3schools.com/howto/howto_js_filter_table.asp*/
@@ -43,23 +27,24 @@ table {
     background-image: url('/css/searchicon.png');
     background-position: 10px 12px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
-    margin-bottom: 12px;
+    margin: 20px 0px;
 }
 
 #myTable {
     border-collapse: collapse;
-    width: 100%;
+    width: 54.60%;
     border: 1px solid #ddd;
     font-size: 18px;
+    padding: 12px 20px 12px 40px;
+    background-position: 10px 12px;
 }
 
 #myTable th, #myTable td {
     text-align: left;
-    padding: 12px;
 }
 
 #myTable tr {
