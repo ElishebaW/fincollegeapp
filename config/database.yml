@@ -1,13 +1,12 @@
 
-default: &default
-  adapter: pg
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+# default: &default
+#   adapter: pg
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#   timeout: 5000
 
 development:
   adapter: pg
   database: db/development.pg
-
 
 test:
   adapter: pg
