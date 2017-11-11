@@ -8,15 +8,15 @@
   color: #5a7994;
 }
 
-
 /*Images*/
 .small_image {
   height: 10em;
   width: 30em;
 }
+
 .medium_image {
   width: 50%;
-  height: 55.4em;
+  height: 45em;
   padding: 10px 0px;
   float: right;
 }
@@ -44,7 +44,6 @@
     padding: 12px 20px 12px 40px;
     background-position: 10px 12px;
     position: relative;
-    height: 35em;
 }
 
 #myTable th, #myTable td {
@@ -86,3 +85,12 @@
 .sidebar a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
+
+/*footer*/
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
