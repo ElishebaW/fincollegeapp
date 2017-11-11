@@ -1,6 +1,6 @@
 <nav class='navigation'>
   <%=image_tag'Logomakr_99oZZf.png',class: "small_image" %>
-  <h1>Online Guidance Counselor</h1>
+  <h1>Financial College App</h1>
 </nav>
 <div><%= image_tag "rsz_college_stock_photo.jpg", class: "medium_image" %></div>
 <input type="text" id="myInput" class='myInput' onkeyup="myFunction()" placeholder="Search for colleges..">
@@ -9,7 +9,6 @@
       <th style="width:40%;">School name</th>
       <th style="width:40%;">Median Debt</th>
       <th style="width:40%;">Earnings</th>
-      <th style="width:40%;">Monthly Payments<th>
     </tr>
     <% @parsed_payments.each do |payment|%>
     <tr>
@@ -19,10 +18,9 @@
     </tr>
     <%end%>
 </table>
-<div class = "sidebar" >
- <ul>
-  <li><button><%link_to "Want to lower debt? Get scholorships","https://www.fastweb.com/%"></li>
- </ul>
+<div>
+  <%= button_to('Want to lower debt? Get scholarships!', 'https://www.fastweb.com/', class: "sidebar" , target: "_blank") %>
+  <%= button_to('Want to increase your earnings and lower debt? Find a job!', 'https://www.collegerecruiter.com/',class: "sidebar",target: "_blank") %>
 </div>
 <div class="pagination">
   <a href="#">&laquo;</a>
