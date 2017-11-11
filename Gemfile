@@ -13,10 +13,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano-rails', group: :development
 gem 'httparty', '~> 0.15.6'
 gem 'json', '~> 2.1'
-gem 'pg'
 
 group :production do
-
+gem 'pg', '~> 0.21.0'
+gem 'rails_12factor', '0.0.2'
 end
 
 group :development, :test do
