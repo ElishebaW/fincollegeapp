@@ -9,6 +9,7 @@ RSpec.describe 'Mpayments' , :type => :feature do
 
   describe 'college search' do
     it 'searches for a college' do
+      visit '/'
       find('.myInput').set('Southeastern')
       expect(page).to have_content("Southeastern Institute-Charleston")
     end

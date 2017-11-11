@@ -18,6 +18,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'database_cleaner'
+  gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.7', '>= 3.7.1'
   gem 'sqlite3'
 end
