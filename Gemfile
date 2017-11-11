@@ -14,6 +14,10 @@ gem 'capistrano-rails', group: :development
 gem 'httparty', '~> 0.15.6'
 gem 'json', '~> 2.1'
 
+group :production do
+  gem 'pg'
+end
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
