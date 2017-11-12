@@ -1,7 +1,7 @@
 .navigation {
   background-color: #94D9B1;
   float:right;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 20px;
@@ -16,7 +16,7 @@
 
 .medium_image {
   width: 50%;
-  height: 45em;
+  height: 45%;
   padding: 10px 0px;
   float: right;
 }
@@ -92,5 +92,5 @@
     text-align: center;
     bottom: 0;
     margin-top: 30px;
-    width: 100%;
+    max-width: 100%;
   }
