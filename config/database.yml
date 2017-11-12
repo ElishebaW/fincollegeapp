@@ -5,13 +5,12 @@ default: &default
   timeout: 5000
 
 development:
-  <<: *default
-  database: db/development.sqlite3
-
+  adapter: pg
+  database: db/development.pg
 
 test:
-  <<: *default
-  database: db/test.sqlite3
+  adapter: pg
+  database: db/test.pg
 
 production:
   adapter: pg

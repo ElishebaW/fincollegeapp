@@ -12,20 +12,29 @@ gem 'redis', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty', '~> 0.15.6'
 gem 'json', '~> 2.1'
+gem 'pg'
 
 group :production do
-  gem 'pg'
+
+end
+
+group :development, :test do
+  gem 'sqlite3'
 end
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+<<<<<<< HEAD
   gem 'database_cleaner'
   gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.7', '>= 3.7.1'
   gem 'sqlite3'
   gem 'webmock', '~> 3.1'
+=======
+  gem 'rspec', '~> 3.7'
+>>>>>>> Updating database.yml for production
 end
 
 group :development do
