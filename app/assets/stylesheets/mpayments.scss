@@ -1,17 +1,15 @@
 .navigation {
   background-color: #94D9B1;
-  float:right;
   width: 100%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  padding-bottom: 20px;
   color: #5a7994;
 }
 
 /*Images*/
 .small_image {
   height: 10em;
-  width: 30em;
+  width: 20em;
 }
 
 .medium_image {
@@ -48,6 +46,7 @@
 
 #myTable th, #myTable td {
     text-align: left;
+    padding: 10px;
 }
 
 #myTable tr {
@@ -62,14 +61,13 @@
 /* Sidebar */
 .sidebar {
   background-color: #5a7994;
-  border: none;
-  padding: 15px 32px;
-  display: inline-block;
+  padding: 12px 20px 12px 40px;
   font-size: 16px;
   color: white;
-  margin-left: 520px;
-  margin-bottom: 30px;
+  margin-left: 900px;
   margin-top: 20px;
+  position: relative;
+
 }
 /* The navigation menu links */
 .sidebar a {
