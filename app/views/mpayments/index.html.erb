@@ -1,7 +1,9 @@
 <nav class='navigation'>
-  <%=image_tag'Logomakr_2tGadH.png',class: "small_image" %>
+  <%=image_tag'Logomakr_2tGadH.png',class: 'small_image' %>
   <h1>Financial College App</h1>
 </nav>
+<%=image_tag'rsz_college_stock_photo.jpg',class: 'medium_image' %>
+  <!-- <%=image_tag'rsz_college_stock_photo.jpg',class: 'medium_image' %> -->
 <input type="text" id="myInput" class='myInput' onkeyup="myFunction()" placeholder="Search college list below...">
 <table id="myTable">
     <tr class="header">
@@ -18,8 +20,8 @@
     <%end%>
 </table>
 <div>
-  <%= button_to('Want to lower debt? Get scholarships!',  'https://www.fastweb.com/', class: "sidebar",target: "_blank") %>
-  <%= button_to('Want to increase your earnings and lower debt? Find a job!', 'https://www.collegerecruiter.com/', class: "sidebar",target: "_blank") %>
+  <%= button_to('Want to lower debt? Click here to get scholarships!',  'https://www.fastweb.com/', class: "sidebar",target: "_blank") %>
+  <%= button_to('Want to increase your earnings and lower debt? Click here to find a job!', 'https://www.collegerecruiter.com/', class: "sidebar",target: "_blank") %>
 </div>
 
 <footer class="footer">

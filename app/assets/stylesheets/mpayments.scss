@@ -14,7 +14,6 @@
 
 .medium_image {
   width: 50%;
-  height: 45em;
   padding: 10px 0px;
   float: right;
 }
@@ -22,40 +21,38 @@
 /*Table Filter W3 schools https://www.w3schools.com/howto/howto_js_filter_table.asp*/
 
 #myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 40.3%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin: 20px 0px;
-    position: relative;
-
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40.3%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin: 20px 0px;
+  position: relative;
 }
 
 #myTable {
-    border-collapse: collapse;
-    width: 45%;
-    border: 1px solid #ddd;
-    font-size: 18px;
-    padding: 12px 20px 12px 40px;
-    background-position: 10px 12px;
-    position: relative;
+  border-collapse: collapse;
+  width: 45%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  padding: 12px 20px 12px 40px;
+  background-position: 10px 12px;
+  position: relative;
 }
 
 #myTable th, #myTable td {
-    text-align: left;
-    padding: 10px;
+  text-align: left;
+  padding: 10px;
 }
 
 #myTable tr {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 #myTable tr.header, #myTable tr:hover {
-
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 /* Sidebar */
@@ -64,31 +61,32 @@
   padding: 12px 20px 12px 40px;
   font-size: 16px;
   color: white;
-  margin-left: 900px;
+  margin-left: 800px;
   margin-top: 20px;
   position: relative;
-
+  top: -500px;
 }
+
 /* The navigation menu links */
 .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 /*footer*/
 
 .footer {
-    text-align: center;
-    bottom: 0;
-    margin-top: 30px;
-    width: 100%;
+  text-align: center;
+  bottom: 0;
+  margin-top: 30px;
+  width: 100%;
   }
