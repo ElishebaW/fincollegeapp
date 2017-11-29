@@ -9,6 +9,7 @@
     clear: both;
     display: table;
 }
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -32,6 +33,8 @@
   background-color: #94D9B1;
   color: #5a7994;
   padding: 15px;
+  text-align: center;
+  width: 100%
 }
 
 /*Images*/
@@ -41,7 +44,6 @@
 }
 
 .medium_image {
-  width: 50%;
   padding: 10px 0px;
   float: right;
 }
@@ -52,17 +54,16 @@
   background-image: url('/css/searchicon.png');
   background-position: 10px 12px;
   background-repeat: no-repeat;
-  width: 40.3%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin: 20px 0px;
   position: relative;
+  width: 50%;
 }
 
 #myTable {
   border-collapse: collapse;
-  width: 45%;
   border: 1px solid #ddd;
   font-size: 18px;
   padding: 12px 20px 12px 40px;
@@ -103,5 +104,4 @@ top: -500px;
   text-align: center;
   bottom: 0;
   margin-top: 30px;
-  width: 100%;
-  }
+}
