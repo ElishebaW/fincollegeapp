@@ -43,11 +43,6 @@
   width: 20em;
 }
 
-.medium_image {
-  padding: 10px 0px;
-  float: right;
-}
-
 /*Table Filter W3 schools https://www.w3schools.com/howto/howto_js_filter_table.asp*/
 
 #myInput {
@@ -84,15 +79,19 @@
   background-color: #f1f1f1;
 }
 
-.sidebar {
-background-color: #5a7994;
-padding: 12px 20px 12px 40px;
-font-size: 16px;
-color: white;
-margin-left: 800px;
-margin-top: 20px;
-position: relative;
-top: -500px;
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 500px;
+}
+.sidebar a {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-decoration: none;
 }
 
 .sidebar a:hover {
